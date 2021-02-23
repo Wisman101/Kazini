@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    text-align: center;
+    font-size: 200%;
+    margin: auto;
+    background-color: rgb(237 207 209);
+    background-image: url("../Images/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#container{
+    position: relative;
+    top: 150px;
+    padding: 30px;
+    background-color: rgb(212 173 179 / 86%);
+    height: 50%;
+    width: 40%;
+    margin: auto;
+    box-shadow: 3px 3px 6px 1px #000000;
+    border-radius: 10px;
+}
+#head{
+    margin: 0;
+    color: darkred;
+}
+.input{
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(228 217 217);
+    color: white;
+    border: none;
+
+}
+.input:focus{
+    outline: black;
+    background-color: rgb(255 226 226);
+}
+.input:visited{
+    outline: black;
+    background-color: rgb(255 226 226);
+}
+#submit{
+    height: 30px;
+    width: 30%;
+    background-color: darkred;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+#signUp{
+   position: relative;
+    right: 5%;
+    font-size: 16px;
+}
+#signIn{
+    font-size: 16px;
+}
+#fPass{
+    position: relative;
+    left: 5%;
+    font-size: 16px;
+}
