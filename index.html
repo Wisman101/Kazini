@@ -5,30 +5,27 @@
     <title>Kazini</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./CSS/login.css" type="text/css">
+
 </head>
 <body>
-<div id="container">
+<div class="container" >
     <div>
         <h1 id="head">Kazini</h1>
     </div>
     <form>
-       <p>
-           <label>
-               <input type="text" class="input" id="username" placeholder="Email" required>
-           </label>
-       </p>
         <p>
-            <label>
-                <input type="password" class="input" id="pass" placeholder="Password" required>
-            </label>
+            <input type="text" class="input" id="username" placeholder="Email" required>
         </p>
         <p>
-            <label>
-                <input type="submit" id="submit" value="Login">
-            </label>
+            <input type="password" class="input" id="pass" placeholder="Password" required>
         </p>
-        <span id="signUp">No account <a href="signUp.html">sign up</a></span>
-        <a href="forgotPassword.html" id="fPass">Forgot password?</a>
+        <p id="sub">
+            <input type="submit" id="submit" value="Login">
+        </p>
+        <div id="extra">
+            <span id="signUp">No account <a href="signUp.html">sign up</a></span>
+            <a href="forgotPassword.html" id="fPass">Forgot password?</a>
+        </div>
     </form>
 </div>
 </body>
