@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="97a83bc2-15a2-43ef-9fe2-358ee9706dd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Inbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/homePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myTasks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomodoro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/background1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Images/background1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forgotPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgotPassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/homePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homePage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/signUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,11 +84,25 @@
       <workItem from="1614099470691" duration="7564000" />
       <workItem from="1614108301135" duration="2021000" />
       <workItem from="1614153978584" duration="4466000" />
+      <workItem from="1614280776680" duration="8118000" />
+      <workItem from="1614321895365" duration="6520000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="888" y="208" width="424" height="478" key="FileChooserDialogImpl" timestamp="1613507592557">
