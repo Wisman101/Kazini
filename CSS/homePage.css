@@ -6,20 +6,23 @@ body{
 }
 #head{
     grid-area: header;
+    color: darkred;
     transition: margin-right .5S;
 }
 #head h1{
-    text-align: center;
-    color: darkred;
     width: 100%;
+    text-align: center;
+    font-family: sans-serif;
 }
-#icon{
-    float: right;
-}
-.fas{
-    font-size: 24px;
-    float: right;
 
+#id_icon{
+    position: relative;
+    margin: 0.5% 1% 0 0;
+    float: right;
+    font-size: 24px;
+}
+.icon{
+    cursor: pointer;
 }
 #dropdown{
     height: 30px;
@@ -28,9 +31,33 @@ body{
     padding: 5px;
     float: right;
 }
+.closebtn{
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white !important;
+    cursor: pointer;
+}
+#profile{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+#profile img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+#profile p{
+    font-size: 1.5em;
+}
 .span{
     display:block;
-    background-color: darkslateblue;
+    background-color: darkred;
     width: 30px;
     height: 5px;
     margin: 0 0 2px 0;
@@ -110,5 +137,8 @@ body{
     }
     #navbar ul li a{
         font-size: medium;
+    }
+    #id_icon{
+        font-size: 16px;
     }
 }

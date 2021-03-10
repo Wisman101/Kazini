@@ -8,24 +8,60 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./CSS/homePage.css">
 </head>
-<body>
-<dv id="head">
-    <h1 id="head">
-        Kazini
-        <div id="icon">
-            <i class="fas fa-bell"></i>
-            <i class="fas fa-plus-circle"></i>
-            <i class="fas fa-user-circle"></i>
+<div id="head">
+    <h1>
+        <span id="title">
+            Kazini
+        </span>
+
+        <div id="id_icon">
+            <span class="icon dropdown">
+                <i data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-plus-circle dropdown-toggle"></i>
+                </i>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-plus-circle"></i> Add task</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-plus-circle"></i> Add project</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-plus-circle"></i> Add Team</a></li>
+                    </ul>
+            </span>
+            <span class="icon dropdown">
+                <i data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bell"></i>
+                </i>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="">notifications</a></li>
+                    </ul>
+            </span>
+            <span class="icon dropdown">
+                <i data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-user-circle"></i>
+                </i>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="">User profile</a></li>
+                        <li><a class="dropdown-item" href="pomodoro.html">pomodoro</a></li>
+                        <li><a class="dropdown-item" href="blocker.html">blocker</a></li>
+                         <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="index.html">logOut</a> </li>
+                    </ul>
+            </span>
         </div>
     </h1>
-</dv>
+</div>
+<div id="dropdown">
+    <span class="span"></span>
+    <span class="span"></span>
+    <span class="span"></span>
+</div>
 <nav id="navbar">
-    <div id="dropdown">
-        <span class="span"></span>
-        <span class="span"></span>
-        <span class="span"></span>
-    </div>
     <div>
+        <div class="closebtn">
+            &times;
+        </div>
+        <div id="profile">
+            <img src="Images/profilePic.jpg">
+            <p>username</p>
+        </div>
         <ul>
             <li>
                 <a class="nav-link" href="./homePage.html">
@@ -73,6 +109,7 @@
     <p>Recent Projects</p><hr>
     <p style="color: gray; text-align: center">no project yet</p>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="./JS/homePage.js"></script>
